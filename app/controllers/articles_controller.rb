@@ -43,4 +43,5 @@ end
 
 
 
-5.12 Using partials to clean up duplication in views
+# todo
+# 5.12 Using partials to clean up duplication in views
