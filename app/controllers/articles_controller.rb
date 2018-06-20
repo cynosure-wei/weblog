@@ -34,6 +34,13 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def destroy
+    @article = Article.find(params[:id])
+    @article.destroy
+
+    redirect_to articles_path
+  end
+
 
   private
     def article_params
@@ -44,4 +51,4 @@ end
 
 
 # todo
-# 5.13 Using partials to clean up duplication in views
+# 6 Adding a Second Model
