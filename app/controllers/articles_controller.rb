@@ -51,4 +51,4 @@ end
 
 
 # todo
-# 7 Adding a Second Model
+# 7 refactor
