@@ -51,4 +51,4 @@ end
 
 
 # todo
-# 7 refactor
+# 8 delete comments
